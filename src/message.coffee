@@ -69,7 +69,7 @@ class Message
       @_client._apiCall "chat.update", params, @_onUpdateMessage
 
   _onUpdateMessage: (data) ->
-    @_client.logger.debug data
+    # @_client.logger.debug data
 
   deleteMessage: =>
     params = {
